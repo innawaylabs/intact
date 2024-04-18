@@ -68,6 +68,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation(libs.coil.compose)
+
     implementation(libs.google.api.client.android)
     implementation(libs.google.api.services.people)
+    implementation(libs.androidx.navigation.compose)
 }

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Intact</string>
+    <string name="profile_picture_description">Profile Picture Goes Here</string>
 </resources>
