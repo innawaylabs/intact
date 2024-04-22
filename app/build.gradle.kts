@@ -73,4 +73,6 @@ dependencies {
     implementation(libs.google.api.client.android)
     implementation(libs.google.api.services.people)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 }

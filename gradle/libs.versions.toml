@@ -1,6 +1,7 @@
 [versions]
 agp = "8.3.2"
 coilCompose = "2.6.0"
+converterGson = "2.9.0"
 googleApiClientAndroid = "1.32.1"
 googleApiServicesPeople = "v1-rev20220420-1.32.1"
 kotlin = "1.9.0"
@@ -17,6 +18,7 @@ navigationCompose = "2.7.7"
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 google-api-client-android = { module = "com.google.api-client:google-api-client-android", version.ref = "googleApiClientAndroid" }
 google-api-services-people = { module = "com.google.apis:google-api-services-people", version.ref = "googleApiServicesPeople" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -32,6 +34,7 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterGson" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
